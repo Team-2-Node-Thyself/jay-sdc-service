@@ -1,17 +1,35 @@
 {
-  "name": "",
+  "name": "similar-items",
   "version": "",
-  "description": "",
-  "author": "",
+  "description": "a photo carousel displaying similar items to the current product",
+  "author": "Andrew Vance",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "seedDB": "node database/dbSeeding.js",
+    "dev-start": "nodemon server",
+    "dev-watch": "webpack --watch"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mysql": "^2.18.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "nodemon": "^2.0.7"
   }
 }
