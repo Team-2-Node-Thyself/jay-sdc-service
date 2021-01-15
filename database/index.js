@@ -19,7 +19,7 @@ const db = Promise.promisifyAll(connection, {multiArgs: true});
 
 
 const getSimilarProducts = (category) => {
-  let queryString = `SELECT id, name, imageUrl, rating, reviewCount, isFavorite, price, cutPrice FROM products WHERE category = ${category}`;
+  let queryString = `SELECT id, name, imageUrl, rating, reviewCount, isFavorite, price, cutPrice FROM products WHERE category = ${category} ORDER BY RAND() LIMIT 16`;
 
   return db.queryAsync(queryString).spread(results => results);
 };
