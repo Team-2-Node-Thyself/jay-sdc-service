@@ -18,9 +18,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.14+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 30
   },
   {
@@ -29,9 +29,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.23+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 81
   },
   {
@@ -40,9 +40,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.32+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 27
   },
   {
@@ -51,7 +51,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.37+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -62,9 +62,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.42+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 7.99,
+    price: '7.99',
     cutPrice: null,
-    rating: 3.5,
+    rating: '3.5',
     reviewCount: 54
   },
   {
@@ -73,9 +73,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.51+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 2.0,
+    rating: '2.0',
     reviewCount: 18
   },
   {
@@ -84,9 +84,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.02+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 10
   },
   {
@@ -95,9 +95,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.08+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 14
   },
   {
@@ -106,9 +106,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.16+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 23
   },
   {
@@ -117,9 +117,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.20+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 2.99,
-    cutPrice: 0.99,
-    rating: 5.0,
+    price: '2.99',
+    cutPrice: '0.99',
+    rating: '5.0',
     reviewCount: 29
   },
   {
@@ -128,9 +128,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.25+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 10.99,
+    price: '10.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 33
   },
   {
@@ -139,9 +139,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.35+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 55
   },
   {
@@ -150,9 +150,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.06+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 4.99,
+    price: '4.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 7
   },
   {
@@ -161,9 +161,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.12+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 5.99,
+    price: '5.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 50
   },
   {
@@ -172,9 +172,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.22+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 10
   },
   {
@@ -183,9 +183,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.27+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
-    cutPrice: 2.99,
-    rating: 3.0,
+    price: '8.99',
+    cutPrice: '2.99',
+    rating: '3.0',
     reviewCount: 28
   },
   {
@@ -194,9 +194,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.33+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 16
   },
   {
@@ -205,9 +205,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.41+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 4.99,
+    price: '4.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 9
   },
   {
@@ -216,9 +216,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.46+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 4.99,
+    price: '4.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 24
   },
   {
@@ -227,7 +227,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.52+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -238,7 +238,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.00+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -249,8 +249,8 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.06+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
-    cutPrice: 0.99,
+    price: '14.99',
+    cutPrice: '0.99',
     rating: null,
     reviewCount: null
   },
@@ -260,7 +260,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.13+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
+    price: '24.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -271,9 +271,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.32+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 31
   },
   {
@@ -282,9 +282,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.38+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 6.99,
+    price: '6.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 13
   },
   {
@@ -293,7 +293,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.45+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 10.00,
+    price: '10.00',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -304,9 +304,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.54+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 6.99,
+    price: '6.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 13
   },
   {
@@ -315,9 +315,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.02+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 6.00,
+    price: '6.00',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 18
   },
   {
@@ -326,9 +326,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.09+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 2.5,
+    rating: '2.5',
     reviewCount: 3
   },
   {
@@ -337,9 +337,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.16+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.49,
-    cutPrice: 1.99,
-    rating: 4.5,
+    price: '2.49',
+    cutPrice: '1.99',
+    rating: '4.5',
     reviewCount: 42
   },
   {
@@ -348,9 +348,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.22+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 9
   },
   {
@@ -359,9 +359,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.28+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 9.99,
-    cutPrice: 4.99,
-    rating: 5.0,
+    price: '9.99',
+    cutPrice: '4.99',
+    rating: '5.0',
     reviewCount: 14
   },
   {
@@ -370,9 +370,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.34+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 6
   },
   {
@@ -381,9 +381,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.53+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 12
   },
   {
@@ -392,9 +392,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.59+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 2.5,
+    rating: '2.5',
     reviewCount: 45
   },
   {
@@ -403,7 +403,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.38.39+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -414,9 +414,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.27+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 2.99,
+    price: '2.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 20
   },
   {
@@ -425,9 +425,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.34+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 15
   },
   {
@@ -436,9 +436,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.41+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
-    cutPrice: 19.99,
-    rating: 4.0,
+    price: '24.99',
+    cutPrice: '19.99',
+    rating: '4.0',
     reviewCount: 21
   },
   {
@@ -447,9 +447,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.49+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 9.99,
+    price: '9.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 6
   },
   {
@@ -458,9 +458,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.54+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 24
   },
   {
@@ -469,7 +469,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.01+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 34.99,
+    price: '34.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -480,7 +480,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.09+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 34.99,
+    price: '34.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -491,9 +491,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.17+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 16.99,
+    price: '16.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 85
   },
   {
@@ -502,9 +502,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.23+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 8.99,
+    price: '8.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 15
   },
   {
@@ -513,9 +513,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.36+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 49
   },
   {
@@ -524,9 +524,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.36+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 34.99,
+    price: '34.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 90
   },
   {
@@ -535,9 +535,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.48+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 29.99,
+    price: '29.99',
     cutPrice: null,
-    rating: 3.5,
+    rating: '3.5',
     reviewCount: 2
   },
   {
@@ -546,9 +546,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.54+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 5.99,
+    price: '5.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 6
   },
   {
@@ -557,9 +557,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.01+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 16.99,
+    price: '16.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 49
   },
   {
@@ -568,7 +568,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.10+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
+    price: '24.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -579,9 +579,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.15+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 17.99,
-    cutPrice: 0.99,
-    rating: 4.5,
+    price: '17.99',
+    cutPrice: '10.99',
+    rating: '4.5',
     reviewCount: 216
   },
   {
@@ -590,9 +590,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.21+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 105
   },
   {
@@ -601,7 +601,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.30+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 39.99,
+    price: '39.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -612,9 +612,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.36+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 9.99,
-    cutPrice: 5.99,
-    rating: 4.0,
+    price: '9.99',
+    cutPrice: '5.99',
+    rating: '4.0',
     reviewCount: 11
   },
   {
@@ -623,9 +623,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.26+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 3
   },
   {
@@ -634,9 +634,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.39+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 5.99,
+    price: '5.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 16
   },
   {
@@ -645,9 +645,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.41+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 3.99,
+    price: '3.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 7
   },
   {
@@ -656,9 +656,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.53+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 7.99,
+    price: '7.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 30
   },
   {
@@ -667,7 +667,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.01+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 55.99,
+    price: '55.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -678,9 +678,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.08+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 33.99,
+    price: '33.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 5
   },
   {
@@ -689,7 +689,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.46+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
+    price: '24.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -700,9 +700,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.53+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 49.99,
-    cutPrice: 1.99,
-    rating: 5.0,
+    price: '49.99',
+    cutPrice: '1.99',
+    rating: '5.0',
     reviewCount: 1
   },
   {
@@ -711,9 +711,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.01+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
+    price: '24.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 4
   },
   {
@@ -722,9 +722,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.07+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
+    price: '24.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 1
   },
   {
@@ -733,9 +733,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.14+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 11
   },
   {
@@ -744,9 +744,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.41+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 2.5,
+    rating: '2.5',
     reviewCount: 37
   },
   {
@@ -755,9 +755,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.47+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 225.00,
+    price: '225.00',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 7
   },
   {
@@ -766,9 +766,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.53+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 1
   },
   {
@@ -777,9 +777,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.01+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 12
   },
   {
@@ -788,9 +788,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.08+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 1.5,
+    rating: '1.5',
     reviewCount: 1
   },
   {
@@ -799,9 +799,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.14+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 24.99,
-    cutPrice: 19.99,
-    rating: 4.0,
+    price: '24.99',
+    cutPrice: '19.99',
+    rating: '4.0',
     reviewCount: 42
   },
   {
@@ -810,9 +810,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.22+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 99.99,
+    price: '99.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 3
   },
   {
@@ -821,9 +821,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.28+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 49.99,
+    price: '49.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 15
   },
   {
@@ -832,9 +832,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.42+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 50.99,
+    price: '50.99',
     cutPrice: null,
-    rating: 3.5,
+    rating: '3.5',
     reviewCount: 4
   },
   {
@@ -843,9 +843,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.02+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 13.99,
+    price: '13.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 2
   },
   {
@@ -854,9 +854,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.11+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 16.99,
+    price: '16.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 44
   },
   {
@@ -865,9 +865,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.18+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 99.99,
+    price: '99.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 3
   },
   {
@@ -876,9 +876,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.25+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 59.99,
+    price: '59.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 3
   },
   {
@@ -887,7 +887,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.31+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 28.99,
+    price: '28.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -898,9 +898,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.37+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 56.99,
+    price: '56.99',
     cutPrice: null,
-    rating: 3.5,
+    rating: '3.5',
     reviewCount: 6
   },
   {
@@ -909,9 +909,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.44+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 49.99,
+    price: '49.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 12
   },
   {
@@ -920,9 +920,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.50+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 4.99,
+    price: '4.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 5
   },
   {
@@ -931,9 +931,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.57+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 66.99,
+    price: '66.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 3
   },
   {
@@ -942,9 +942,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.21+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 16.99,
+    price: '16.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 33
   },
   {
@@ -953,9 +953,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.31+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 32
   },
   {
@@ -964,9 +964,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.48+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 1.5,
+    rating: '1.5',
     reviewCount: 2
   },
   {
@@ -975,9 +975,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.05+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 12.00,
+    price: '12.00',
     cutPrice: null,
-    rating: 4.0,
+    rating: '4.0',
     reviewCount: 2
   },
   {
@@ -986,9 +986,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.14+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 16.99,
+    price: '16.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 2
   },
   {
@@ -997,9 +997,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.56+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 1.99,
+    price: '1.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 15
   },
   {
@@ -1008,9 +1008,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.05+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 22.99,
+    price: '22.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 1
   },
   {
@@ -1019,9 +1019,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.18+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 12.99,
+    price: '12.99',
     cutPrice: null,
-    rating: 2.0,
+    rating: '2.0',
     reviewCount: 1
   },
   {
@@ -1030,9 +1030,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.26+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.49,
+    price: '19.49',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 15
   },
   {
@@ -1041,7 +1041,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.36+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 68.99,
+    price: '68.99',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -1052,7 +1052,7 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.41+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 17.59,
+    price: '17.59',
     cutPrice: null,
     rating: null,
     reviewCount: null
@@ -1063,9 +1063,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.46+PM.png',
     category: 3,
     isFavorite: 1,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 1
   },
   {
@@ -1074,9 +1074,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.00+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 1.5,
+    rating: '1.5',
     reviewCount: 2
   },
   {
@@ -1085,9 +1085,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.07+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 19.99,
+    price: '19.99',
     cutPrice: null,
-    rating: 3.0,
+    rating: '3.0',
     reviewCount: 5
   },
   {
@@ -1096,9 +1096,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.28+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 29.99,
+    price: '29.99',
     cutPrice: null,
-    rating: 5.0,
+    rating: '5.0',
     reviewCount: 3
   },
   {
@@ -1107,9 +1107,9 @@ module.exports.products = [
     imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.40+PM.png',
     category: 3,
     isFavorite: 0,
-    price: 14.99,
+    price: '14.99',
     cutPrice: null,
-    rating: 4.5,
+    rating: '4.5',
     reviewCount: 2
   }
 ];
