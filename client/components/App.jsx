@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SimilarItemsList from './SimilarItemsList.jsx';
 import axios from 'axios';
+import styled from 'styled-components';
 
 const App = (props) => {
 
@@ -19,13 +20,35 @@ const App = (props) => {
 
   }, []);
 
+  const Wrapper = styled.div`
+    width: 70%;
+    margin: auto;
+
+    .List::-webkit-scrollbar {
+      display: none;
+    }
+
+    .List {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  `;
+
+  const List = styled.div`
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+    grid-auto-flow: column;
+    overflow: auto;
+    height: 300px;
+  `;
+
   return (
-    <div>
+    <Wrapper>
       <div>Similar Items</div>
-      <div>
+      <List className='List'>
         < SimilarItemsList products={products}/>
-      </div>
-    </div>
+      </List>
+    </Wrapper>
   );
 };
 
