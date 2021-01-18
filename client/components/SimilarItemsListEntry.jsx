@@ -1,8 +1,52 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import axios from 'axios';
 
 
 const SimilarItemsListEntry = (props) => {
+
+  const [isFavorite, updateIsFavorite] = useState(false);
+  const isFavImg = 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/yikrLMzET.png';
+  const isNotFavImg = 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Heart-PNG-HD.png';
+  let favoriteImg;
+
+  if (isFavorite) {
+    favoriteImg = isFavImg;
+  } else {
+    favoriteImg = isNotFavImg;
+  }
+
+  useEffect(() => {
+    if (props.product.isFavorite) {
+      updateIsFavorite(true);
+    }
+  }, []);
+
+  const handleFavorite = () => {
+
+    if (isFavorite) {
+
+      axios.patch(`/products/favorites/remove/${props.product.id}`)
+        .then(() => {
+          updateIsFavorite(!isFavorite);
+          favoriteImg = isNotFavImg;
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    } else {
+
+      axios.patch(`/products/favorites/add/${props.product.id}`)
+        .then(() => {
+          updateIsFavorite(!isFavorite);
+          favoriteImg = isFavImg;
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    }
+
+  };
 
   const displayRating = () => {
     if (props.product.rating) {
@@ -21,7 +65,7 @@ const SimilarItemsListEntry = (props) => {
 
   return (
     <EntryDiv scrollAnimation={props.scrollAnimation}>
-      <ProductImg imageUrl={props.product.imageUrl}><HeartImage></HeartImage></ProductImg>
+      <ProductImg imageUrl={props.product.imageUrl}><HeartImage onClick={handleFavorite} favoriteImg={favoriteImg}></HeartImage></ProductImg>
       <StarDiv></StarDiv>
       {displayRating()}
       <div>{props.product.name}</div>
@@ -59,14 +103,14 @@ const HeartImage = styled.div`
 width: 25px;
 height: 25px;
 float: right;
-background-image: url('https://smallimg.pngkey.com/png/small/377-3778885_jewelry-icon-heart-black-love-emblem-small-heart.png');
+background-image: url('${props => props.favoriteImg}');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 100% 100%;
 `;
 
 const ProductImg = styled.div`
-background-image: url(${props => props.imageUrl});
+background-image: url('${props => props.imageUrl}');
 background-repeat: no-repeat;
 background-position: center;
 box-shadow: 0px 0px 0px 1px rgba(0,0,0,.03);
