@@ -24,6 +24,7 @@ const App = (props) => {
 
 
   const slide = (direction) => {
+
     if (direction === 'right') {
       if (pos === 3) {
         updateScrollAnimation('right3');
@@ -43,6 +44,11 @@ const App = (props) => {
     }
   };
 
+  const displayPageNum = () => {
+    return (
+      <PageNum>{pos + 1}/4</PageNum>
+    );
+  };
 
 
   return (
@@ -50,6 +56,7 @@ const App = (props) => {
       <Title>Similar Items</Title>
       <ButtonRight onClick={() => { slide('right'); }}></ButtonRight>
       <ButtonLeft onClick={() => { slide('left'); }}></ButtonLeft>
+      {displayPageNum()}
       <List className='List'>
         < SimilarItemsList products={products} scrollAnimation={scrollAnimation}/>
       </List>
@@ -112,4 +119,11 @@ const Title = styled.span`
   font-family: Helvetica;
   position: relative;
   left: 1%;
+`;
+
+const PageNum = styled.span`
+  position: relative;
+  float: right;
+  left: -30px;
+  top: 7px;
 `;
