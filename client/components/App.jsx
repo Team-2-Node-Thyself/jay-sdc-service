@@ -47,7 +47,7 @@ const App = (props) => {
 
   return (
     <Wrapper>
-      <span>Similar Items</span>
+      <Title>Similar Items</Title>
       <ButtonRight onClick={() => { slide('right'); }}></ButtonRight>
       <ButtonLeft onClick={() => { slide('left'); }}></ButtonLeft>
       <List className='List'>
@@ -106,3 +106,10 @@ const ButtonLeft = styled.div`
   float: right;
   left: -15px;
   `;
+
+const Title = styled.span`
+  font-size: 25px;
+  font-family: Helvetica;
+  position: relative;
+  left: 1%;
+`;
