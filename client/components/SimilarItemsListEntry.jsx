@@ -63,13 +63,29 @@ const SimilarItemsListEntry = (props) => {
     }
   };
 
+  const displayPrice = () => {
+    if (props.product.cutPrice) {
+      return (
+        <div>
+          <CutPrice>${props.product.price}</CutPrice>
+          <span><b>${props.product.cutPrice}</b></span>
+        </div>
+
+      );
+    } else {
+      return (
+        <div><b>${props.product.price}</b></div>
+      );
+    }
+  };
+
   return (
     <EntryDiv scrollAnimation={props.scrollAnimation}>
       <ProductImg imageUrl={props.product.imageUrl}><HeartImage onClick={handleFavorite} favoriteImg={favoriteImg}></HeartImage></ProductImg>
       <StarDiv></StarDiv>
       {displayRating()}
       <div>{props.product.name}</div>
-      <div><b>${props.product.price}</b></div>
+      {displayPrice()}
     </EntryDiv>
   );
 };
@@ -173,3 +189,8 @@ const EntryDiv = styled.div`
   position: relative;
   animation: ${props => props.scrollAnimation} 1s 1 forwards;
   `;
+
+const CutPrice = styled.span`
+  text-decoration: line-through;
+  margin-right: 10px;
+`;
