@@ -68,7 +68,7 @@ export default App;
 
 
 const Wrapper = styled.div`
-width: 70%;
+width: 80%;
 margin: auto;
 
 .List::-webkit-scrollbar {
