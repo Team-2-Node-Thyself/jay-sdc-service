@@ -104,6 +104,8 @@ display: inline-block;
 margin-bottom: 10px;
 `;
 
+StarDiv.displayName = 'StarDiv';
+
 const ReviewDiv = styled.div`
 font-size: 12px;
 display: inline;
@@ -115,15 +117,22 @@ bottom: 12px;
 }
 `;
 
+ReviewDiv.displayName = 'ReviewDiv';
+
 const HeartImage = styled.div`
-width: 25px;
-height: 25px;
+width: 21px;
+height: 21px;
 float: right;
+position: relative;
+right: 10px;
+top: 10px;
 background-image: url('${props => props.favoriteImg}');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 100% 100%;
 `;
+
+HeartImage.displayName = 'HeartImage';
 
 const ProductImg = styled.div`
 background-image: url('${props => props.imageUrl}');
@@ -137,6 +146,8 @@ margin-bottom: 10px;
 height: 80%;
 background-size: 100% 100%;
 `;
+
+ProductImg.displayName = 'ProductImg';
 
 const EntryDiv = styled.div`
 
@@ -190,7 +201,11 @@ const EntryDiv = styled.div`
   animation: ${props => props.scrollAnimation} 1s 1 forwards;
   `;
 
+EntryDiv.displayName = 'EntryDiv';
+
 const CutPrice = styled.span`
   text-decoration: line-through;
   margin-right: 10px;
 `;
+
+CutPrice.displayName = 'CutPrice';

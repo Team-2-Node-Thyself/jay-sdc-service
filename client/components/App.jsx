@@ -68,7 +68,7 @@ export default App;
 
 
 const Wrapper = styled.div`
-width: 80%;
+width: 62%;
 margin: auto;
 
 .List::-webkit-scrollbar {
@@ -81,6 +81,8 @@ margin: auto;
 }
 `;
 
+Wrapper.displayName = 'Wrapper';
+
 const List = styled.div`
 display: grid;
 grid-template-columns: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
@@ -89,6 +91,8 @@ overflow: auto;
 height: 300px;
 clear: both;
 `;
+
+List.displayName = 'List';
 
 const ButtonRight = styled.div`
   height: 35px;
@@ -102,6 +106,8 @@ const ButtonRight = styled.div`
   left: -10px;
   `;
 
+ButtonRight.displayName = 'ButtonRight';
+
 const ButtonLeft = styled.div`
   height: 35px;
   width: 35px;
@@ -114,6 +120,8 @@ const ButtonLeft = styled.div`
   left: -15px;
   `;
 
+ButtonLeft.displayName = 'ButtonLeft';
+
 const Title = styled.span`
   font-size: 25px;
   font-family: Helvetica;
@@ -121,9 +129,13 @@ const Title = styled.span`
   left: 1%;
 `;
 
+Title.displayName = 'Title';
+
 const PageNum = styled.span`
   position: relative;
   float: right;
   left: -30px;
   top: 7px;
 `;
+
+PageNum.displayName = 'PageNum';
