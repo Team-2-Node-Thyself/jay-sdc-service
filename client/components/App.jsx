@@ -54,8 +54,8 @@ const App = (props) => {
   return (
     <Wrapper>
       <Title>Similar Items</Title>
-      <ButtonRight onClick={() => { slide('right'); }}></ButtonRight>
-      <ButtonLeft onClick={() => { slide('left'); }}></ButtonLeft>
+      <ButtonRight className='buttons' onClick={() => { slide('right'); }}></ButtonRight>
+      <ButtonLeft className='buttons' onClick={() => { slide('left'); }}></ButtonLeft>
       {displayPageNum()}
       <List className='List'>
         <div></div>
@@ -82,6 +82,19 @@ margin: auto;
   scrollbar-width: none;
 }
 
+.buttons {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #544d4d;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
 @media only screen and (max-width: 1300px) {
   width: 94%;
 }
@@ -102,34 +115,14 @@ clear: both;
 List.displayName = 'List';
 
 const ButtonRight = styled.div`
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 2px #544d4d;
   background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/kisspng-arrow-computer-icons-button-right-arrow-5ad612c55b31d7.4599895915239789493735.png');
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  position: relative;
-  float: right;
   left: -10px;
   `;
 
 ButtonRight.displayName = 'ButtonRight';
 
 const ButtonLeft = styled.div`
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 2px #544d4d;
   background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/pngegg.png');
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  position: relative;
-  float: right;
   left: -15px;
   `;
 
