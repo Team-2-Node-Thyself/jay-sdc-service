@@ -26,7 +26,7 @@ const SimilarItemsListEntry = (props) => {
 
     if (isFavorite) {
 
-      axios.patch(`/products/favorites/remove/${props.product.id}`)
+      axios.patch(`http://localhost:8080/products/favorites/remove/${props.product.id}`)
         .then(() => {
           updateIsFavorite(!isFavorite);
           favoriteImg = isNotFavImg;
@@ -36,7 +36,7 @@ const SimilarItemsListEntry = (props) => {
         });
     } else {
 
-      axios.patch(`/products/favorites/add/${props.product.id}`)
+      axios.patch(`http://localhost:8080/products/favorites/add/${props.product.id}`)
         .then(() => {
           updateIsFavorite(!isFavorite);
           favoriteImg = isFavImg;
@@ -95,9 +95,10 @@ export default SimilarItemsListEntry;
 
 
 const StarDiv = styled.div`
-background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-15+at+2.35.47+PM.png');
+background-image: url('https://pngimg.com/uploads/red_star/red_star_PNG31.png');
 background-repeat: no-repeat;
 background-position: center;
+background-size: 15px 15px;
 width: 15px;
 height: 15px;
 display: inline-block;
@@ -138,13 +139,13 @@ const ProductImg = styled.div`
 background-image: url('${props => props.imageUrl}');
 background-repeat: no-repeat;
 background-position: center;
+background-size: 110% 100%;
 box-shadow: 0px 0px 0px 1px rgba(0,0,0,.03);
 border-radius: 15px;
 border-size: 5px;
 margin-top: 10px;
 margin-bottom: 10px;
 height: 80%;
-background-size: 100% 100%;
 `;
 
 ProductImg.displayName = 'ProductImg';

@@ -3,12 +3,16 @@ const app = express();
 const bodyParser = require('body-parser');
 const port = process.env.PORT || 8080;
 const db = require('../database');
+const cors = require('cors');
 
+app.use(cors({
+  origin: 'http://localhost:8000'
+}));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use('/', express.static('public'));
-
+app.use('/bundle', express.static('public/bundle.js'));
 
 app.get('/products/similar/:category', (req, res) => {
   let category = req.params.category;

@@ -12,7 +12,7 @@ const App = (props) => {
   useEffect(() => {
     let categoryId = 3;
 
-    axios.get(`/products/similar/${categoryId}`)
+    axios.get(`http://localhost:8080/products/similar/${categoryId}`)
       .then(results => {
         updateProducts(results.data);
       })
@@ -54,11 +54,13 @@ const App = (props) => {
   return (
     <Wrapper>
       <Title>Similar Items</Title>
-      <ButtonRight onClick={() => { slide('right'); }}></ButtonRight>
-      <ButtonLeft onClick={() => { slide('left'); }}></ButtonLeft>
+      <ButtonRight className='buttons' onClick={() => { slide('right'); }}></ButtonRight>
+      <ButtonLeft className='buttons' onClick={() => { slide('left'); }}></ButtonLeft>
       {displayPageNum()}
       <List className='List'>
+        <div></div>
         < SimilarItemsList products={products} scrollAnimation={scrollAnimation}/>
+        <div></div>
       </List>
     </Wrapper>
   );
@@ -68,7 +70,7 @@ export default App;
 
 
 const Wrapper = styled.div`
-width: 62%;
+width: 1200px;
 margin: auto;
 
 .List::-webkit-scrollbar {
@@ -79,44 +81,48 @@ margin: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.buttons {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #544d4d;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+@media only screen and (max-width: 1300px) {
+  width: 94%;
+}
 `;
 
 Wrapper.displayName = 'Wrapper';
 
 const List = styled.div`
 display: grid;
-grid-template-columns: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+grid-template-columns: 2px 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 2px;
 grid-auto-flow: column;
 overflow: auto;
 height: 300px;
 clear: both;
+
 `;
 
 List.displayName = 'List';
 
 const ButtonRight = styled.div`
-  height: 35px;
-  width: 35px;
-  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-18+at+9.23.31+AM.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  position: relative;
-  float: right;
+  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/kisspng-arrow-computer-icons-button-right-arrow-5ad612c55b31d7.4599895915239789493735.png');
   left: -10px;
   `;
 
 ButtonRight.displayName = 'ButtonRight';
 
 const ButtonLeft = styled.div`
-  height: 35px;
-  width: 35px;
-  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-18+at+9.23.25+AM.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  position: relative;
-  float: right;
+  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/pngegg.png');
   left: -15px;
   `;
 
