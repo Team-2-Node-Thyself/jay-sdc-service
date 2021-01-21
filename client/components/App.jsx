@@ -12,7 +12,7 @@ const App = (props) => {
   useEffect(() => {
     let categoryId = 3;
 
-    axios.get(`/products/similar/${categoryId}`)
+    axios.get(`http://localhost:8080/products/similar/${categoryId}`)
       .then(results => {
         updateProducts(results.data);
       })
@@ -58,7 +58,9 @@ const App = (props) => {
       <ButtonLeft onClick={() => { slide('left'); }}></ButtonLeft>
       {displayPageNum()}
       <List className='List'>
+        <div></div>
         < SimilarItemsList products={products} scrollAnimation={scrollAnimation}/>
+        <div></div>
       </List>
     </Wrapper>
   );
@@ -68,7 +70,7 @@ export default App;
 
 
 const Wrapper = styled.div`
-width: 62%;
+width: 1200px;
 margin: auto;
 
 .List::-webkit-scrollbar {
@@ -79,17 +81,22 @@ margin: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@media only screen and (max-width: 1300px) {
+  width: 94%;
+}
 `;
 
 Wrapper.displayName = 'Wrapper';
 
 const List = styled.div`
 display: grid;
-grid-template-columns: 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+grid-template-columns: 2px 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 2px;
 grid-auto-flow: column;
 overflow: auto;
 height: 300px;
 clear: both;
+
 `;
 
 List.displayName = 'List';
