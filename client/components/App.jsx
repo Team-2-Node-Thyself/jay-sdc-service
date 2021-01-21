@@ -95,9 +95,12 @@ clear: both;
 List.displayName = 'List';
 
 const ButtonRight = styled.div`
-  height: 35px;
-  width: 35px;
-  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-18+at+9.23.31+AM.png');
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #544d4d;
+  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/kisspng-arrow-computer-icons-button-right-arrow-5ad612c55b31d7.4599895915239789493735.png');
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -109,9 +112,12 @@ const ButtonRight = styled.div`
 ButtonRight.displayName = 'ButtonRight';
 
 const ButtonLeft = styled.div`
-  height: 35px;
-  width: 35px;
-  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-18+at+9.23.25+AM.png');
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #544d4d;
+  background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/pngegg.png');
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;

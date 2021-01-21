@@ -95,9 +95,10 @@ export default SimilarItemsListEntry;
 
 
 const StarDiv = styled.div`
-background-image: url('https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-15+at+2.35.47+PM.png');
+background-image: url('https://pngimg.com/uploads/red_star/red_star_PNG31.png');
 background-repeat: no-repeat;
 background-position: center;
+background-size: 15px 15px;
 width: 15px;
 height: 15px;
 display: inline-block;
