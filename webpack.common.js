@@ -4,7 +4,6 @@ const SRC_FILE = path.join(__dirname, 'client/index.jsx');
 const OUT_PATH = path.join(__dirname, 'public');
 
 module.exports = {
-  mode: 'development',
   entry: SRC_FILE,
   output: {
     filename: 'bundle.js',
@@ -23,6 +22,5 @@ module.exports = {
         }
       }
     ]
-  },
-  devtool: 'eval-cheap-source-map'
+  }
 };
