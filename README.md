@@ -1,13 +1,12 @@
-# Project Name
+# Similar-items-carousel
 
-> Project description
+> a product carousel displaying simliar products in the same category as the current one
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/iron-people-fec/general-sales
+  - https://github.com/iron-people-fec/review-section
+  - https://github.com/iron-people-fec/product_images
 
 ## Table of Contents
 
@@ -17,7 +16,11 @@
 
 ## Usage
 
-> Some usage instructions
+- first run `npm install`
+- create the database using the Schema.sql file by moving to the repos root directory and running `mysql -uroot <SCHEMA.sql`
+- seed the database by running `npm run seed-db`
+- create the bundle with `npm run build`
+- run the server with `npm start`
 
 ## Requirements
 
@@ -32,8 +35,7 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 From within the root directory:
 
-```sh
-npm install -g webpack
+`
 npm install
-```
+`
 
