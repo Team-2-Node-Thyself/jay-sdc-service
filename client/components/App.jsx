@@ -11,8 +11,9 @@ const App = (props) => {
 
   useEffect(() => {
     let categoryId = 3;
+    //let x = window.location.path
 
-    axios.get(`http://localhost:8080/products/similar/${categoryId}`)
+    axios.get(`http://localhost:8001/products/similar/${categoryId}`)
       .then(results => {
         updateProducts(results.data);
       })
