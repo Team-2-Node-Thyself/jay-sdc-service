@@ -18,10 +18,18 @@ connection.connect(err => {
 const db = Promise.promisifyAll(connection, {multiArgs: true});
 
 
-const getSimilarProducts = (category) => {
-  let queryString = `SELECT id, name, imageUrl, rating, reviewCount, isFavorite, price, cutPrice FROM products WHERE category = ${category} ORDER BY RAND() LIMIT 16`;
+const getSimilarProducts = (id) => {
+  let queryString = `SELECT category FROM products WHERE id = ${id}`;
 
-  return db.queryAsync(queryString).spread(results => results);
+  return db.queryAsync(queryString).spread(results => results)
+    .then(results => {
+      let category = results[0].category;
+
+      queryString = `SELECT id, name, imageUrl, rating, reviewCount, isFavorite, price, cutPrice FROM products WHERE category = ${category} ORDER BY RAND() LIMIT 16`;
+
+      return db.queryAsync(queryString).spread(results => results);
+    });
+
 };
 
 const getFavorites = () => {
