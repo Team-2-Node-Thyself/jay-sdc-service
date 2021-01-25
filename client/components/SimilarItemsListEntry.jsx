@@ -26,7 +26,7 @@ const SimilarItemsListEntry = (props) => {
 
     if (isFavorite) {
 
-      axios.patch(`http://localhost:8080/products/favorites/remove/${props.product.id}`)
+      axios.patch(`http://localhost:8001/products/favorites/remove/${props.product.id}`)
         .then(() => {
           updateIsFavorite(!isFavorite);
           favoriteImg = isNotFavImg;
@@ -36,7 +36,7 @@ const SimilarItemsListEntry = (props) => {
         });
     } else {
 
-      axios.patch(`http://localhost:8080/products/favorites/add/${props.product.id}`)
+      axios.patch(`http://localhost:8001/products/favorites/add/${props.product.id}`)
         .then(() => {
           updateIsFavorite(!isFavorite);
           favoriteImg = isFavImg;
@@ -131,6 +131,10 @@ background-image: url('${props => props.favoriteImg}');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 100% 100%;
+
+&:hover {
+  cursor: pointer;
+}
 `;
 
 HeartImage.displayName = 'HeartImage';

@@ -10,9 +10,11 @@ const App = (props) => {
   const [scrollAnimation, updateScrollAnimation] = useState(null);
 
   useEffect(() => {
-    let categoryId = 3;
+    let x = window.location.pathname;
+    x = x.slice(10);
+    let categoryId = x.slice(0, -1);
 
-    axios.get(`http://localhost:8080/products/similar/${categoryId}`)
+    axios.get(`http://localhost:8001/products/similar/${categoryId}`)
       .then(results => {
         updateProducts(results.data);
       })

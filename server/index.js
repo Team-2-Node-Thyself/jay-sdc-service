@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8001;
 const db = require('../database');
 const cors = require('cors');
 
@@ -14,9 +14,10 @@ app.use(bodyParser.json());
 app.use('/', express.static('public'));
 app.use('/bundle', express.static('public/bundle.js'));
 
-app.get('/products/similar/:category', (req, res) => {
-  let category = req.params.category;
-  db.getSimilarProducts(category)
+app.get('/products/similar/:productId', (req, res) => {
+  let productId = req.params.productId;
+
+  db.getSimilarProducts(productId)
     .then(results => {
       res.send(results);
     })
