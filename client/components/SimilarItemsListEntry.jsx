@@ -6,6 +6,7 @@ import axios from 'axios';
 const SimilarItemsListEntry = (props) => {
 
   const [isFavorite, updateIsFavorite] = useState(false);
+  const [overHeart, updateOverHeart] = useState(false);
   const isFavImg = 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/yikrLMzET.png';
   const isNotFavImg = 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Heart-PNG-HD.png';
   let favoriteImg;
@@ -48,6 +49,13 @@ const SimilarItemsListEntry = (props) => {
 
   };
 
+  const handleClick = () => {
+    if (!overHeart) {
+      window.location = `/products/${props.product.id}`;
+    }
+
+  };
+
   const displayRating = () => {
     if (props.product.rating) {
       return (
@@ -80,8 +88,8 @@ const SimilarItemsListEntry = (props) => {
   };
 
   return (
-    <EntryDiv scrollAnimation={props.scrollAnimation}>
-      <ProductImg imageUrl={props.product.imageUrl}><HeartImage onClick={handleFavorite} favoriteImg={favoriteImg}></HeartImage></ProductImg>
+    <EntryDiv scrollAnimation={props.scrollAnimation} onClick={handleClick}>
+      <ProductImg imageUrl={props.product.imageUrl}><HeartImage onMouseEnter={() => { updateOverHeart(true); } } onMouseLeave={() => { updateOverHeart(false); }} onClick={handleFavorite} favoriteImg={favoriteImg}></HeartImage></ProductImg>
       <StarDiv></StarDiv>
       {displayRating()}
       <div>{props.product.name}</div>
@@ -194,6 +202,10 @@ const EntryDiv = styled.div`
   @keyframes left3 {
     from {left: -1200%;}
     to {left: -800%;}
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 
   height: 80%;
