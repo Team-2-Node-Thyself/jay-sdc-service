@@ -4,6 +4,9 @@ const bodyParser = require('body-parser');
 const port = process.env.PORT || 8001;
 const db = require('../database');
 const cors = require('cors');
+const compression = require('compression');
+
+app.use(compression());
 
 app.use(cors({
   origin: 'http://localhost:8000'
