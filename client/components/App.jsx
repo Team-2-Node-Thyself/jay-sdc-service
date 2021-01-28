@@ -11,10 +11,13 @@ const App = (props) => {
 
   useEffect(() => {
     let x = window.location.pathname;
-    x = x.slice(10);
-    let categoryId = x.slice(0, -1);
+    let productId = x.slice(10, -1);
 
-    axios.get(`http://localhost:8001/products/similar/${categoryId}`)
+    if (productId < 1 || productId.length < 1) {
+      productId = 1;
+    }
+
+    axios.get(`http://localhost:8001/products/similar/${productId}`)
       .then(results => {
         updateProducts(results.data);
       })
