@@ -15,7 +15,7 @@ module.exports.products = [
   {
     name: 'Wand Tassels The Mouse Cat Toy',
     description: 'stick to wave in front of your cat',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.14+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.14+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '3.99',
@@ -26,7 +26,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Skitter Critters Catnip Mice',
     description: 'mice covered in catnip',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.23+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.23+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -37,7 +37,7 @@ module.exports.products = [
   {
     name: 'Teasel Cat Tunnel',
     description: 'fun tunnel for cats',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.32+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.32+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -48,7 +48,7 @@ module.exports.products = [
   {
     name: 'Smarty Kat Carrot',
     description: 'cat chew toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.37+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.37+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -59,7 +59,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Loco Laser',
     description: 'laser',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.42+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.42+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '7.99',
@@ -70,7 +70,7 @@ module.exports.products = [
   {
     name: 'Smarty Kat Silly Swimmers',
     description: 'feather toys',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.51+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.23.51+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -81,7 +81,7 @@ module.exports.products = [
   {
     name: 'Furry Poms Cat Toy - 2pk',
     description: 'pom poms',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.02+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.02+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -92,7 +92,7 @@ module.exports.products = [
   {
     name: 'Boots & Barkley Catnip Pounce Sloth',
     description: 'catnip infused sloth',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.08+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.08+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '2.99',
@@ -103,7 +103,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Flutter Roller',
     description: 'rolling ringing toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.16+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.16+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -114,7 +114,7 @@ module.exports.products = [
   {
     name: 'Platypus Cat Toy',
     description: 'platypus cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.20+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.20+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '2.99',
@@ -125,7 +125,7 @@ module.exports.products = [
   {
     name: 'Ball Track Cat Scratcher',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.25+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.25+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '10.99',
@@ -136,7 +136,7 @@ module.exports.products = [
   {
     name: 'Tunnel Cat Scratcher',
     description: 'cat tunnel of fun',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.35+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.24.35+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '8.99',
@@ -147,7 +147,7 @@ module.exports.products = [
   {
     name: 'Rubber Lattice Tie Dye Cat Toy',
     description: 'bell balls',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.06+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.06+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '4.99',
@@ -158,7 +158,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Chitter Critter',
     description: 'electronic sound cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.12+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.12+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '5.99',
@@ -169,7 +169,7 @@ module.exports.products = [
   {
     name: 'Quirky Kitty Pineapple & Flamingo Cat Toy',
     description: 'stuffed toys',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.22+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.22+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '3.99',
@@ -180,7 +180,7 @@ module.exports.products = [
   {
     name: 'Tassel Wand Cat Toy',
     description: 'tassel tassel',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.27+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.27+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -191,7 +191,7 @@ module.exports.products = [
   {
     name: 'Quirky Kitty Avacado Toast',
     description: 'cats like avacados',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.33+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.33+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '3.99',
@@ -202,7 +202,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Chit Chatter',
     description: 'electronic sound cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.41+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.41+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '4.99',
@@ -213,7 +213,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Leggy Llama',
     description: 'catnip cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.46+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.46+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '4.99',
@@ -224,7 +224,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Madcap Mania Catnip',
     description: 'refillable cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.52+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.35.52+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -235,7 +235,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Fuzzy Friends',
     description: 'catnip cat toy, set of 2',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.00+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.00+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -246,7 +246,7 @@ module.exports.products = [
   {
     name: 'Cat Wave Scratcher',
     description: 'cat scratcher tunnel',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.06+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.06+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -257,7 +257,7 @@ module.exports.products = [
   {
     name: 'Taco Truck Cat Scratcher',
     description: 'cat house',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.13+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.13+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -268,7 +268,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Race \'N\' Chase',
     description: '',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.32+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.32+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -279,7 +279,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Skitter Critters',
     description: 'stuffed mice',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.38+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.38+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '6.99',
@@ -290,7 +290,7 @@ module.exports.products = [
   {
     name: 'Gift Holiday Cat Stocking Toy Set',
     description: 'stocking stuffer for you cat',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.45+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.45+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '10.00',
@@ -301,7 +301,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Smarty Stash',
     description: 'variety kat toys',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.54+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.36.54+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '6.99',
@@ -312,7 +312,7 @@ module.exports.products = [
   {
     name: 'Hot Chocolate Mice Holiday',
     description: 'marshmellow mice and toy mug',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.02+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.02+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '6.00',
@@ -323,7 +323,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Silly Swinger',
     description: 'tasel toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.09+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.09+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '3.99',
@@ -334,7 +334,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Catnip',
     description: 'silvernine blend catnip',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.16+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.16+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.49',
@@ -345,7 +345,7 @@ module.exports.products = [
   {
     name: 'Tweedle and Dee',
     description: 'soft cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.22+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.22+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -356,7 +356,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Magic Mice',
     description: 'catnip mice',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.28+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.28+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '9.99',
@@ -367,7 +367,7 @@ module.exports.products = [
   {
     name: 'Colerful Bulbs',
     description: 'holiday cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.34+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.34+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -378,7 +378,7 @@ module.exports.products = [
   {
     name: 'Colorful Teaser',
     description: 'tasel toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.53+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.53+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -389,7 +389,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Window Wobbler',
     description: 'suction cup fun',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.59+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.37.59+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -400,7 +400,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Stix',
     description: '100% catnip',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.38.39+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.38.39+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -411,7 +411,7 @@ module.exports.products = [
   {
     name: 'Glitter Fish Tacos',
     description: '2pk',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.27+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.27+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '2.99',
@@ -422,7 +422,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Marble Mouse Roller',
     description: 'wobbling mouse toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.34+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.34+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '3.99',
@@ -433,7 +433,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Cat Post',
     description: 'scratching post',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.41+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.41+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -444,7 +444,7 @@ module.exports.products = [
   {
     name: 'Cat Scracher - Tan - XL',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.49+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.49+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '9.99',
@@ -455,7 +455,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Sisal Angle Cat Scratcher',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.54+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.39.54+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -466,7 +466,7 @@ module.exports.products = [
   {
     name: 'Double Decker Holiday Tree',
     description: 'cat scratcher house',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.01+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.01+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '34.99',
@@ -477,7 +477,7 @@ module.exports.products = [
   {
     name: 'Double Decker Holiday Present',
     description: 'cat scratcher house',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.09+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.09+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '34.99',
@@ -488,7 +488,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Hot Pursuit',
     description: 'electronic light and motion cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.17+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.17+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '16.99',
@@ -499,7 +499,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Fishy Fun',
     description: 'crinkle catnip',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.23+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.23+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '8.99',
@@ -510,7 +510,7 @@ module.exports.products = [
   {
     name: 'Corrugate Cat Scratch Ottoman',
     description: 'fun for everyone',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.36+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+2.40.36+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '19.99',
@@ -521,7 +521,7 @@ module.exports.products = [
   {
     name: 'Pirate Ship',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.36+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.36+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '34.99',
@@ -532,7 +532,7 @@ module.exports.products = [
   {
     name: 'Catit Play Tumbler',
     description: 'bee cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.48+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.48+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '29.99',
@@ -543,7 +543,7 @@ module.exports.products = [
   {
     name: 'Basic Cat Scratcher',
     description: 'black cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.54+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.38.54+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '5.99',
@@ -554,7 +554,7 @@ module.exports.products = [
   {
     name: 'Fun House',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.01+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.01+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '16.99',
@@ -565,7 +565,7 @@ module.exports.products = [
   {
     name: 'Catit Play Circuit',
     description: 'ball with catnip',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.10+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.10+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -576,7 +576,7 @@ module.exports.products = [
   {
     name: 'Premier Pet - Laser Cat Toy',
     description: 'laser laser',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.15+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.15+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '17.99',
@@ -587,7 +587,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Super Scratcher',
     description: 'chaise catnip infused',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.21+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.21+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -598,7 +598,7 @@ module.exports.products = [
   {
     name: 'Catit Vesper Tunnel',
     description: 'cat tunnel',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.30+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.30+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '39.99',
@@ -609,7 +609,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Silly Spinner',
     description: 'electronic light and motion cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.36+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.39.36+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '9.99',
@@ -620,7 +620,7 @@ module.exports.products = [
   {
     name: 'Quirky Kitty Unicorn',
     description: 'stuffed unicorn cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.26+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.26+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '3.99',
@@ -631,7 +631,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Silvernine Catnip',
     description: 'catnip refiller',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.39+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.41.39+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '5.99',
@@ -642,7 +642,7 @@ module.exports.products = [
   {
     name: 'Quirky Kitty Chicken & Tuna Cat Toy',
     description: 'stuffed cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.41+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.41+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '3.99',
@@ -653,7 +653,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Crinkle Cloud',
     description: 'cat mat',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.53+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.42.53+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '7.99',
@@ -664,7 +664,7 @@ module.exports.products = [
   {
     name: 'Catit Vesper Rocket Cat Toy',
     description: 'cat house',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.01+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.01+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '55.99',
@@ -675,7 +675,7 @@ module.exports.products = [
   {
     name: 'Cat-Life Play Tree',
     description: 'carpet scratching post',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.08+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.08+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '33.99',
@@ -686,7 +686,7 @@ module.exports.products = [
   {
     name: 'Catit Play Circuit',
     description: 'ball cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.46+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.46+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -697,7 +697,7 @@ module.exports.products = [
   {
     name: 'Hauspanther Nest Perch',
     description: 'hanging cat perch scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.53+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.43.53+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '49.99',
@@ -708,7 +708,7 @@ module.exports.products = [
   {
     name: 'Way Basics Eco Cube',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.01+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.01+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -719,7 +719,7 @@ module.exports.products = [
   {
     name: 'Hauspanther Dual Surface Pole Cat Scratcher',
     description: 'pole cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.07+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.07+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -730,7 +730,7 @@ module.exports.products = [
   {
     name: 'A-Frame Cat Scratcher',
     description: 'corrugate',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.14+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.14+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -741,7 +741,7 @@ module.exports.products = [
   {
     name: 'Catit Play Circuit',
     description: 'ball toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.41+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.41+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -752,7 +752,7 @@ module.exports.products = [
   {
     name: 'Trixie Belinda Cat Playground',
     description: 'cat playgound',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.47+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.47+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '225.00',
@@ -763,7 +763,7 @@ module.exports.products = [
   {
     name: 'Pet Genius Smart Play Rover Cart Toy',
     description: 'rolling dangle toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.53+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.44.53+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -774,7 +774,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Tweet Tower',
     description: 'cat scratch post',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.01+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.01+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -785,7 +785,7 @@ module.exports.products = [
   {
     name: 'Catit Senses Grass Planter',
     description: 'put your cat outside to enjoy grass',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.08+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.08+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -796,7 +796,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Triple Tower',
     description: '3 pack cat scratch towers',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.14+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.14+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '24.99',
@@ -807,7 +807,7 @@ module.exports.products = [
   {
     name: 'Catit Vesper Cubo',
     description: 'cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.22+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.22+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '99.99',
@@ -818,7 +818,7 @@ module.exports.products = [
   {
     name: 'Hauspanther CATchall',
     description: 'wall cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.28+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.28+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '49.99',
@@ -829,7 +829,7 @@ module.exports.products = [
   {
     name: 'Catit Vesper Cube Slim',
     description: 'cat house scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.42+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.45.42+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '50.99',
@@ -840,7 +840,7 @@ module.exports.products = [
   {
     name: 'Catit Play Treast Spinner Cat Toy',
     description: 'spinning cat treat feeder',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.02+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.02+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '13.99',
@@ -851,7 +851,7 @@ module.exports.products = [
   {
     name: 'B. Toys Interactive Plush',
     description: 'wobble and go toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.11+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.11+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '16.99',
@@ -862,7 +862,7 @@ module.exports.products = [
   {
     name: 'Trixie Alicante Cat Tree',
     description: 'cat play thing',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.18+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.18+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '99.99',
@@ -873,7 +873,7 @@ module.exports.products = [
   {
     name: 'Catit Vesper Rocket',
     description: 'cat house',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.25+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.25+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '59.99',
@@ -884,7 +884,7 @@ module.exports.products = [
   {
     name: 'Catit Play Pirates Cannon',
     description: 'cat cannon tunnel',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.31+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.31+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '28.99',
@@ -895,7 +895,7 @@ module.exports.products = [
   {
     name: 'Majestic Pet Activity Center',
     description: 'cat tower scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.37+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.37+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '56.99',
@@ -906,7 +906,7 @@ module.exports.products = [
   {
     name: 'Hauspanther Nest Perch',
     description: 'cat wall perch scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.44+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.44+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '49.99',
@@ -917,7 +917,7 @@ module.exports.products = [
   {
     name: 'Penguin Kicker',
     description: 'holiday cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.50+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.50+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '4.99',
@@ -928,7 +928,7 @@ module.exports.products = [
   {
     name: 'Cat-Life Multi-Level Lounger',
     description: 'cat bamboo tower scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.57+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.46.57+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '66.99',
@@ -939,7 +939,7 @@ module.exports.products = [
   {
     name: 'Rainbow Double Cat Scratcher',
     description: 'cat tunnel scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.21+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.21+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '16.99',
@@ -950,7 +950,7 @@ module.exports.products = [
   {
     name: 'Cat Scratcher House',
     description: 'cat home ammenities',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.31+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.31+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -961,7 +961,7 @@ module.exports.products = [
   {
     name: 'Geo Tent Cat Scratcher',
     description: 'cat scratcher tent',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.48+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.47.48+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
@@ -972,7 +972,7 @@ module.exports.products = [
   {
     name: 'Crowded Coop, LLC Star Trek Tribble',
     description: 'star trek cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.05+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.05+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '12.00',
@@ -983,7 +983,7 @@ module.exports.products = [
   {
     name: 'Valentine\'s Day Cat Scratcher',
     description: 'cat home scratcher valentine themed',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.14+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.14+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '16.99',
@@ -994,7 +994,7 @@ module.exports.products = [
   {
     name: 'SmartyKat Silvernine & Catnip Blend',
     description: 'catnip refill',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.56+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.48.56+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '1.99',
@@ -1005,7 +1005,7 @@ module.exports.products = [
   {
     name: 'FurHaven Corrugated House Cat Scratcher',
     description: 'cat house scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.05+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.05+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '22.99',
@@ -1016,7 +1016,7 @@ module.exports.products = [
   {
     name: 'Pestiges Mousin Around',
     description: 'hide n treat cat toy',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.18+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.49.18+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '12.99',
@@ -1027,7 +1027,7 @@ module.exports.products = [
   {
     name: 'Parla Scratching Post',
     description: 'scratching post, what else ya need?',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.26+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.26+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.49',
@@ -1038,7 +1038,7 @@ module.exports.products = [
   {
     name: 'Majestic Cat Casita Faux Fur Activity Center',
     description: 'you love your cat dont you?',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.36+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.36+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '68.99',
@@ -1049,7 +1049,7 @@ module.exports.products = [
   {
     name: 'Pestiges Grass Patch Hunting Box',
     description: 'i think mice pop out of the holes',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.41+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.41+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '17.59',
@@ -1060,7 +1060,7 @@ module.exports.products = [
   {
     name: 'Pestiges Easy Life Snuggle and Rest',
     description: 'cat relax and scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.46+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.51.46+PM.webp',
     category: 3,
     isFavorite: 1,
     price: '19.99',
@@ -1071,7 +1071,7 @@ module.exports.products = [
   {
     name: 'Pestages Wobble Track Cat Toy',
     description: 'wobble wobble tassel wand',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.00+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.00+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -1082,7 +1082,7 @@ module.exports.products = [
   {
     name: 'Pestages Scratch and Play Tower Track',
     description: 'cat scratcher tower with track and ball',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.07+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.07+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '19.99',
@@ -1093,7 +1093,7 @@ module.exports.products = [
   {
     name: 'Two By Two Elm Cat Tower',
     description: 'cat scratch tower and ball',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.28+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.28+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '29.99',
@@ -1104,7 +1104,7 @@ module.exports.products = [
   {
     name: 'Catit Style Catnip Bench',
     description: 'catnip cat scratcher',
-    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.40+PM.png',
+    imageUrl: 'https://carousel-media.s3.us-east-2.amazonaws.com/carousel-media/Screen+Shot+2021-01-13+at+3.52.40+PM.webp',
     category: 3,
     isFavorite: 0,
     price: '14.99',
