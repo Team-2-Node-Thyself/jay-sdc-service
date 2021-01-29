@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "node server",
+    "setup-db": "node database/setup-db.js",
     "seed-db": "node database/dbSeeding.js",
     "dev-start": "nodemon server",
     "dev-watch": "webpack --config webpack.dev.js --watch",
