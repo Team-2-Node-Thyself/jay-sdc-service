@@ -2,9 +2,10 @@ const mysql = require('mysql');
 const Promise = require('bluebird');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  database: 'fec'
+  host: process.env.MYSQL_HOST || 'localhost',
+  user: process.env.MYSQL_USER || 'root',
+  password: process.env.MYSQL_PASSWORD || '',
+  database: process.env.MYSQL_DB || 'fec'
 });
 
 connection.connect(err => {

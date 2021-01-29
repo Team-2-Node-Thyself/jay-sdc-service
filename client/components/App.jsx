@@ -6,16 +6,31 @@ import styled from 'styled-components';
 const App = (props) => {
 
   const [products, updateProducts] = useState([]);
-  const [pos, updatePos] = useState(0);
-  const [scrollAnimation, updateScrollAnimation] = useState(null);
+  const [pos, updatePos] = useState(1);
+  const [perPage, updatePerPage] = useState(4);
 
   useEffect(() => {
     let x = window.location.pathname;
     let productId = x.slice(10, -1);
 
+    if (window.innerWidth < 990) {
+      updatePerPage(3);
+    } else if (window.innerWidth >= 990) {
+      updatePerPage(4);
+    }
+
     if (productId < 1 || productId.length < 1) {
       productId = 1;
     }
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth < 990) {
+        updatePerPage(3);
+      } else if (window.innerWidth >= 990) {
+        updatePerPage(4);
+      }
+
+    });
 
     axios.get(`http://localhost:8001/products/similar/${productId}`)
       .then(results => {
@@ -30,28 +45,45 @@ const App = (props) => {
 
   const slide = (direction) => {
 
+    let x = document.getElementById('ListId').getElementsByTagName('li');
+    let index = 0;
+
     if (direction === 'right') {
-      if (pos === 3) {
-        updateScrollAnimation('right3');
-        updatePos(0);
+      index = pos * perPage;
+
+      if (index >= 16) {
+        updatePos(1);
+        index = 0;
       } else {
-        updateScrollAnimation('right' + pos);
         updatePos(pos + 1);
       }
+
+      x[index].scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
+      });
     } else {
-      if (pos === 0) {
-        updateScrollAnimation('left0');
-        updatePos(3);
+      index = (pos - 2) * perPage;
+
+      if (index < 0) {
+        updatePos(perPage === 3 ? 6 : 4);
+        index = 15;
       } else {
-        updateScrollAnimation('left' + pos);
         updatePos(pos - 1);
       }
+
+      x[index].scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
+      });
     }
+
+
   };
 
   const displayPageNum = () => {
     return (
-      <PageNum>{pos + 1}/4</PageNum>
+      <PageNum>{pos}/{perPage === 4 ? 4 : 6}</PageNum>
     );
   };
 
@@ -62,9 +94,9 @@ const App = (props) => {
       <ButtonRight className='buttons' onClick={() => { slide('right'); }}></ButtonRight>
       <ButtonLeft className='buttons' onClick={() => { slide('left'); }}></ButtonLeft>
       {displayPageNum()}
-      <List className='List'>
+      <List id='ListId' className='List' perPage={perPage}>
         <div></div>
-        < SimilarItemsList products={products} scrollAnimation={scrollAnimation}/>
+        < SimilarItemsList products={products}/>
         <div></div>
       </List>
     </Wrapper>
@@ -85,6 +117,12 @@ margin: auto;
 .List {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  scroll-snap-align: start;
 }
 
 .buttons {
@@ -109,7 +147,13 @@ Wrapper.displayName = 'Wrapper';
 
 const List = styled.div`
 display: grid;
-grid-template-columns: 2px 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 2px;
+grid-template-columns: ${props => {
+    if (props.perPage === 4) {
+      return '2px 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 25% 2px';
+    } else {
+      return '2px 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 33% 2px';
+    }
+  }};
 grid-auto-flow: column;
 overflow: auto;
 height: 300px;
