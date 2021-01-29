@@ -88,7 +88,7 @@ const SimilarItemsListEntry = (props) => {
   };
 
   return (
-    <EntryDiv scrollAnimation={props.scrollAnimation} onClick={handleClick}>
+    <EntryDiv from={props.from} to={props.to} onClick={handleClick}>
       <ProductImg imageUrl={props.product.imageUrl}><HeartImage onMouseEnter={() => { updateOverHeart(true); } } onMouseLeave={() => { updateOverHeart(false); }} onClick={handleFavorite} favoriteImg={favoriteImg}></HeartImage></ProductImg>
       <StarDiv></StarDiv>
       {displayRating()}
@@ -164,46 +164,6 @@ ProductImg.displayName = 'ProductImg';
 
 const EntryDiv = styled.div`
 
-  @keyframes right0 {
-    from {left: 0%;}
-    to {left: -400%;}
-  }
-
-  @keyframes right1 {
-    from {left: -400%;}
-    to {left: -800%;}
-  }
-
-  @keyframes right2 {
-    from {left: -800%;}
-    to {left: -1200%;}
-  }
-
-  @keyframes right3 {
-    from {left: -1200%;}
-    to {left: 0%;}
-  }
-
-  @keyframes left0 {
-    from {left: 0%;}
-    to {left: -1200%;}
-  }
-
-  @keyframes left1 {
-    from {left: -400%;}
-    to {left: 0%;}
-  }
-
-  @keyframes left2 {
-    from {left: -800%;}
-    to {left: -400%;}
-  }
-
-  @keyframes left3 {
-    from {left: -1200%;}
-    to {left: -800%;}
-  }
-
   &:hover {
     cursor: pointer;
   }
@@ -215,7 +175,6 @@ const EntryDiv = styled.div`
   font-family: Helvetica;
   font-weight: 100;
   position: relative;
-  animation: ${props => props.scrollAnimation} 1s 1 forwards;
   `;
 
 EntryDiv.displayName = 'EntryDiv';
