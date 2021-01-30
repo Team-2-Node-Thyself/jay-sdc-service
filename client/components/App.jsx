@@ -60,7 +60,8 @@ const App = (props) => {
 
       x[index].scrollIntoView({
         behavior: 'smooth',
-        inline: 'start'
+        inline: 'start',
+        block: 'nearest'
       });
     } else {
       index = (pos - 2) * perPage;
@@ -74,7 +75,8 @@ const App = (props) => {
 
       x[index].scrollIntoView({
         behavior: 'smooth',
-        inline: 'start'
+        inline: 'start',
+        block: 'nearest'
       });
     }
 
