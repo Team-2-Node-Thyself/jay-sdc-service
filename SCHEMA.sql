@@ -1,21 +1,31 @@
-CREATE DATABASE IF NOT EXISTS fec;
 
-USE fec;
+-- drop if exists
+DROP DATABASE IF EXISTS sdc;
+
+CREATE DATABASE sdc;
+
+-- replaces USE
+\c sdc;
+
+CREATE TABLE IF NOT EXISTS categories (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(64)
+);
 
 CREATE TABLE IF NOT EXISTS products (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   name VARCHAR(64),
   description VARCHAR(120),
   imageUrl VARCHAR(120),
-  category INT,
-  isFavorite INT,
+  category INTEGER,
+  isFavorite BOOLEAN,
   price VARCHAR(12),
   cutPrice VARCHAR(12),
-  rating VARCHAR(12),
+  rating DECIMAL,
   reviewCount INT
 );
 
-CREATE TABLE IF NOT EXISTS categories (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(64)
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  favorites INTEGER REFERENCES products(id)
 );
