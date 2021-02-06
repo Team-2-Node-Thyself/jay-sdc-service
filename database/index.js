@@ -1,23 +1,18 @@
-const mysql = require('mysql');
-const Promise = require('bluebird');
+const { Pool, Client } = require('pg');
 
-const connection = mysql.createConnection({
-  host: process.env.MYSQL_HOST || 'localhost',
-  user: process.env.MYSQL_USER || 'root',
-  password: process.env.MYSQL_PASSWORD || '',
-  database: process.env.MYSQL_DB || 'fec'
+const pool = new Pool();
+const client = new Client({
+  user: 'root',
+  host: 'localhost',
+  database: 'sdc',
+  password: 'SQLiseasy1313',
+  port: 5432,
 });
+await client.connect();
 
-connection.connect(err => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log('connected to db');
-  }
-});
-
-const db = Promise.promisifyAll(connection, {multiArgs: true});
-
+const res = await client.query('SELECT $1:: text as message', ['Hello World!'])
+console.log(res.rows[0].message);
+await client.end();
 
 const getSimilarProducts = (id) => {
   let queryString = `SELECT category FROM products WHERE id = ${id}`;
